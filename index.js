@@ -55,8 +55,14 @@ class Jogadorfutebol {
     }
 }
 
-let jogadoru = new Jogadorfutebol("Lionel Messi", "atacante", "24/06/1987", "Argentino", "1,69m", "67 kg");
-console.log(jogadoru.mostrarAtributos() + jogadoru.tempoAposentar());
+let jogador1 = new Jogadorfutebol("Lionel Messi", "atacante", "24/06/1987", "argentino", "1,69m", "67 kg");
+console.log(jogador1.mostrarAtributos() + jogador1.tempoAposentar());
 
-let jogadord = new Jogadorfutebol("Eduardo Pereira Rodrigues", "meio-campo", "07/01/1992", "Brasileiro", "1,66m", "63 kg");
-console.log(jogadord.mostrarAtributos() + jogadord.tempoAposentar());
+let jogador2 = new Jogadorfutebol("Eduardo Pereira Rodrigues", "meio-campo", "07/01/1992", "brasileiro", "1,66m", "63 kg");
+console.log(jogador2.mostrarAtributos() + jogador2.tempoAposentar());
+
+let jogador3 = new Jogadorfutebol("Cássio Ramos", "defesa", "06/06/1987", "brasileiro", "1,96m", "92 kg");
+console.log(jogador3.mostrarAtributos() + jogador3.tempoAposentar());
+
+let jogador4 = new Jogadorfutebol("Cristiano Ronaldo", "centroavante", "05/01/1985", "português", "1,87m", "84 kg");
+console.log(jogador4.mostrarAtributos() + jogador4.tempoAposentar());
